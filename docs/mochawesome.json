@@ -1,0 +1,98 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-06-03T07:53:03.792Z",
+    "end": "2018-06-03T07:53:03.868Z",
+    "duration": 76,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "51abba96-9f8b-422b-968d-2fbb25405ac5",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "84db75c6-46cd-4efd-a79b-be179abdc254",
+        "title": "#test koa app",
+        "fullFile": "G:\\js-QA\\server\\router.spec.js",
+        "file": "\\server\\router.spec.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [],
+        "suites": [
+          {
+            "uuid": "9bd6fe85-4d3a-43a9-bce8-2bbf326c06a7",
+            "title": "#test server",
+            "fullFile": "G:\\js-QA\\server\\router.spec.js",
+            "file": "\\server\\router.spec.js",
+            "beforeHooks": [],
+            "afterHooks": [],
+            "tests": [
+              {
+                "title": "#test GET /",
+                "fullTitle": "#test koa app #test server #test GET /",
+                "timedOut": false,
+                "duration": 40,
+                "state": "passed",
+                "speed": "medium",
+                "pass": true,
+                "fail": false,
+                "pending": false,
+                "code": "let res = await request(server)\n    .get('/test')\n    .expect('Content-Type', /json/)\n    .expect(200, {name:\"aaa\",age:23});",
+                "err": {},
+                "isRoot": false,
+                "uuid": "5447748b-c33d-458f-8e4b-97b312673af2",
+                "isHook": false,
+                "skipped": false
+              }
+            ],
+            "suites": [],
+            "passes": [
+              "5447748b-c33d-458f-8e4b-97b312673af2"
+            ],
+            "failures": [],
+            "pending": [],
+            "skipped": [],
+            "duration": 40,
+            "root": false,
+            "rootEmpty": false,
+            "_timeout": 2000
+          }
+        ],
+        "passes": [],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 0,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2018
+}
